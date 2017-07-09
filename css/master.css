@@ -8,13 +8,13 @@ body,
   padding: 70px;
 }
 
-.bgimg {
+body.bgimg {
 	background: url("../images/lion.jpg") no-repeat center center fixed;
     background-size: cover;
 }
-@media (max-width: 750px) {
+@media (max-width: 450px) {
 	body.bgimg {
-		background: url("../images/lion_sm.jpg");
+		background: url("../images/lion_sm.jpg") no-repeat;
 		/*background-size: auto;*/
 	}
 }
@@ -27,10 +27,6 @@ a:hover {
 }
 .o-7 {
 	opacity: 0.7;
-}
-
-#first_page {
-    
 }
 #more {
   position: relative;
@@ -62,11 +58,16 @@ a:hover {
 		padding: 250px 150px 10px 150px;
 	}
 }
-@media (max-height: 665px){
+@media (min-height: 500) and (max-height: 665px){
 	#more_sm {
 		padding-top: 200px;
-		
 	}
+}
+@media (max-height: 490px) {
+	#more_sm {
+		padding-top: 130px;
+	}
+	
 }
 /*PRELOADER*/
 .spinner:before {
@@ -164,8 +165,6 @@ section#arrow {
 	text-transform: uppercase;
 	padding-left: 0px !important;
 }
-
-
 .title i {
 	position: relative;
     background-color: rgba(0, 0, 0, 0.75);
@@ -177,6 +176,14 @@ section#arrow {
     -moz-border-radius: 20px;
     border-radius: 20px;
     font-size: smaller;
+}
+@media (max-width: 374px) {
+	p.title {
+		font-size: small;	
+	}
+	.strong {
+		font-size: small;
+	}
 }
 #education .title i {
 	background-color: #33cc33;
@@ -206,19 +213,6 @@ section#arrow {
 	margin: 0;
 	border-left: 3px solid rgba(0, 0, 0, 0.05);
 }
-
-
-/*.fa.fa-graduation-cap {
-	position: relative;
-	background-color: rgba(0, 0, 0, 0.75);
-	color: #fff;
-	left: -110px;
-	padding: 10px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	font-size: smaller;
-}*/
 #timeline ul li {
 	list-style-image: url('../images/circle.png');
 	padding: 10px 0 10px 27px;
