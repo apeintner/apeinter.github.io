@@ -12,6 +12,12 @@ body,
 	background: url("../images/lion.jpg") no-repeat center center fixed;
     background-size: cover;
 }
+@media (max-width: 750px) {
+	.bgimg {
+		background: url("../images/lion_sm.jpg") no-repeat center center fixed;
+		background-size: auto;
+	}
+}
 a {
 	cursor: pointer;
 	color: black;
@@ -54,6 +60,11 @@ a:hover {
 @media (min-width: 767px) and (max-width: 990px) {
 	#more {
 		padding: 250px 150px 10px 150px;
+	}
+}
+@media (max-height: 665px){
+	#more_sm {
+		padding-top: 200px;
 	}
 }
 
@@ -141,6 +152,11 @@ section#arrow {
 	text-align: right;
 }
 
+@media (max-width: 800px) {
+	#aboutMe .container {
+		padding: 50px;
+	}
+}
 .title {
 	list-style-image: url('../images/times.png') !important;
 	font-size: larger;
@@ -348,14 +364,9 @@ div#online_courses {
 	letter-spacing: 1px;
 	font-size: 68.5%;
 }
-/*---------------*/
-/***** Milo *****/
-/*---------------*/
-
 figure.effect-milo {
 	background: #404040;
 }
-
 figure.effect-milo img {
 	max-width: none;
 	width: -webkit-calc(100% + 60px);
@@ -368,20 +379,17 @@ figure.effect-milo img {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
-
 figure.effect-milo:hover img {
 	opacity: 0.5;
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);
 }
-
 figure.effect-milo h2 {
 	position: absolute;
 	right: 0;
 	bottom: 0;
 	padding: 1em 1.2em;
 }
-
 figure.effect-milo p {
 	padding: 0 10px 0 0;
 	width: 50%;
@@ -393,11 +401,15 @@ figure.effect-milo p {
 	-webkit-transform: translate3d(-40px,0,0);
 	transform: translate3d(-40px,0,0);
 }
-
 figure.effect-milo:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
+}
+@media (max-width: 800px) {
+	#portfolio .effect-milo h2 {
+		font-size: 0.8em;
+	}
 }
 /*CONTACT*/
 #contact h2 {
@@ -421,6 +433,9 @@ footer{
 }
 footer .container {
   padding: 25px;
+}
+#shio button {
+	float: right;
 }
 #shio
 span,
