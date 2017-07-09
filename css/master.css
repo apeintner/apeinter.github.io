@@ -30,6 +30,16 @@ body.bgimg {
 	    display: block;*/
 	}
 }
+@media (min-width: 451px) and (max-width: 1025px) {
+	body.bgimg {
+		background: url("../images/lion_md.jpg") no-repeat;
+	}
+}
+@media (min-height: 416px) and (max-width: 770px) {
+	body.bgimg {
+		background: url("../images/lion_md_sq.jpg") no-repeat;
+	}
+}
 a {
 	cursor: pointer;
 	color: black;
