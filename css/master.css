@@ -7,32 +7,31 @@ body,
   padding: 70px;
 }
 
-body.bgimg {
-	background: url("../images/lion.jpg") no-repeat center center fixed;
-    background-size: cover;
-   /* max-width: 100%;
-    height: auto;
-    display: block;*/
-}
-@media (max-width: 450px) {
+
+@media (max-width: 450px) and (orientation: portrait) {
 	body.bgimg {
-		background: url("../images/lion_sm.jpg") no-repeat;
+		background: url("../images/lion_sm.jpg") no-repeat center center fixed;
 		/*max-width: 100%;
 	    height: auto;
 	    display: block;*/
 	}
 }
-/*@media (max-height: 415px) {
+@media (min-width: 737px) and (orientation: landscape) {
 	body.bgimg {
-		background: url("../images/lion_sm_sq.jpg") no-repeat;
+		background: url("../images/lion_sm_sq.jpg") no-repeat center center fixed;
 		/*max-width: 100%;
 	    height: auto;
 	    display: block;*/
-*/	}
+	}
 }
-@media (min-width: 451px) and (max-width: 768px) {
+@media (min-width: 451px) and (orientation: portrait) {
 	body.bgimg {
-		background: url("../images/lion_md.jpg") no-repeat;
+		background: url("../images/lion_md.jpg") no-repeat center center fixed;
+	}
+}
+@media (max-height: 415px) and (orientation: landscape) {
+	body.bgimg {
+		background: url("../images/lion_sm_landscape.jpg") no-repeat center center fixed;
 	}
 }
 /*@media (min-height: 767px) and (max-height: 1025px) {
@@ -45,10 +44,19 @@ body.bgimg {
 		background: url("../images/lion_md_sq.jpg") no-repeat;
 	}
 }*/
-@media (min-width: 769px) and (max-width: 1025px) {
+@media (min-width: 738px) and (orientation: landscape) {
 	body.bgimg {
-		background: url("../images/lion_md_sq.jpg") no-repeat;
+		background: url("../images/lion_md_sq.jpg") no-repeat center center fixed;
 	}
+}
+@media (min-width: 1025px) {
+	body.bgimg {
+	background: url("../images/lion.jpg") no-repeat center center fixed;
+    background-size: cover;
+   /* max-width: 100%;
+    height: auto;
+    display: block;*/
+}
 }
 a {
 	cursor: pointer;
