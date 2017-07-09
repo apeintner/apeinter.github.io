@@ -13,9 +13,9 @@ body,
     background-size: cover;
 }
 @media (max-width: 750px) {
-	.bgimg {
-		background: url("../images/lion_sm.jpg") no-repeat center center fixed;
-		background-size: auto;
+	body.bgimg {
+		background: url("../images/lion_sm.jpg");
+		/*background-size: auto;*/
 	}
 }
 a {
@@ -41,7 +41,7 @@ a:hover {
 #more_sm {
   position: relative;
   padding-top: 300px;
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
   color: white; 
 }
 #more_sm .display-2 {
@@ -51,7 +51,7 @@ a:hover {
 #more_sm .highlight {
 	background-color: #4d4d4d;
     border-radius: 25px;
-    padding: 10px;
+    padding-left: 10px;
 }
 .display-2 {
   font-size: 5.5rem;
@@ -65,9 +65,9 @@ a:hover {
 @media (max-height: 665px){
 	#more_sm {
 		padding-top: 200px;
+		
 	}
 }
-
 /*PRELOADER*/
 .spinner:before {
 	content: '';
