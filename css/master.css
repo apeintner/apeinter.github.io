@@ -22,20 +22,20 @@ body.bgimg {
 	    display: block;*/
 	}
 }
-@media (max-height: 415px) {
+/*@media (max-height: 415px) {
 	body.bgimg {
 		background: url("../images/lion_sm_sq.jpg") no-repeat;
 		/*max-width: 100%;
 	    height: auto;
 	    display: block;*/
-	}
+*/	}
 }
 @media (min-width: 451px) and (max-width: 768px) {
 	body.bgimg {
 		background: url("../images/lion_md.jpg") no-repeat;
 	}
 }
-@media (min-height: 767px) and (max-height: 1025px) {
+/*@media (min-height: 767px) and (max-height: 1025px) {
 	body.bgimg {
 		background: url("../images/lion_md.jpg") no-repeat;
 	}
@@ -43,13 +43,11 @@ body.bgimg {
 @media (min-height: 416px) and (max-height: 770px) {
 	body.bgimg {
 		background: url("../images/lion_md_sq.jpg") no-repeat;
-		background-size: cover;
 	}
-}
+}*/
 @media (min-width: 769px) and (max-width: 1025px) {
 	body.bgimg {
 		background: url("../images/lion_md_sq.jpg") no-repeat;
-		background-size: cover;
 	}
 }
 a {
