@@ -6,7 +6,6 @@ body,
 .container {
   padding: 70px;
 }
-
 @media (max-width: 450px) and (orientation: portrait) {
 	body.bgimg {
 		background: url("../images/lion_sm.jpg") no-repeat fixed;
@@ -172,7 +171,6 @@ section#arrow {
 #aboutMe h3 {
 	text-align: right;
 }
-
 @media (max-width: 800px) {
 	#aboutMe .container {
 		padding: 50px;
@@ -205,19 +203,6 @@ section#arrow {
 		font-size: small;
 	}
 }
-#education .title i {
-	background-color: #33cc33;
-	padding: 10px 8px 10px 8px;
-}
-#language_education i {
-	background-color: #0099ff;
-}
-#teaching_myself i {
-	background-color: #6600ff;
-}
-#online i {
-	background-color: #ff0066;
-}
 #work i {
 	background-color: #ff9900;
 }
@@ -225,6 +210,20 @@ section#arrow {
 	font-size: 1em;
 	color: #ff9900;
 }
+#education .title i {
+	background-color: #ff0066;
+	padding: 10px 8px 10px 8px;
+}
+#online i {
+	background-color: #6600ff;
+}
+#teaching_myself i {
+	background-color: #0099ff;
+}
+#language_education i {
+	background-color: #33cc33;
+}
+
 #timeline {
 	background-color: white;
 }
