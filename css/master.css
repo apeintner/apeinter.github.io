@@ -3,7 +3,6 @@ body,
 .main {
     height: 100%;
 }
-
 .container {
   padding: 70px;
 }
@@ -11,11 +10,24 @@ body,
 body.bgimg {
 	background: url("../images/lion.jpg") no-repeat center center fixed;
     background-size: cover;
+    /*max-width: 100%;
+    height: auto;
+    display: block;*/
 }
 @media (max-width: 450px) {
 	body.bgimg {
 		background: url("../images/lion_sm.jpg") no-repeat;
-		/*background-size: auto;*/
+		/*max-width: 100%;
+	    height: auto;
+	    display: block;*/
+	}
+}
+@media (max-height: 415px) {
+	body.bgimg {
+		background: url("../images/lion_sm_sq.jpg") no-repeat;
+		/*max-width: 100%;
+	    height: auto;
+	    display: block;*/
 	}
 }
 a {
