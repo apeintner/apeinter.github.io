@@ -411,6 +411,11 @@ figure.effect-milo:hover p {
 		font-size: 0.8em;
 	}
 }
+@media (max-width: 800px) {
+	#portfolio .container {
+		padding: 30px;
+	}
+}
 /*CONTACT*/
 #contact h2 {
 	margin-bottom: 50px;
