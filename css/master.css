@@ -472,8 +472,14 @@ footer a {
 }
 /*MODAL*/
 .modal-lg img {
-	margin: 10px;
+	margin: 10px auto;
 	border: 1px solid black;
+	max-width: 100%;
+}
+@media (max-width: 750px) {
+	.modal-lg img {
+		max-width: 75%;
+	}
 }
 
 
