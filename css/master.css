@@ -206,7 +206,7 @@ section#arrow {
 #work i {
 	background-color: #ff9900;
 }
-#work a {
+#work a, #education a, #online a {
 	font-size: 1em;
 	color: #ff9900;
 }

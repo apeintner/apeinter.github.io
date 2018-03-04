@@ -1,6 +1,6 @@
 $(function(){
     $(".element").typed({
-      strings: ["I'm Webdesigner ^1000", "My aim is creating things that others love to use"],
+      strings: ["I'm Web Developer ^1000", "My aim is to create things that others love to use"],
       typeSpeed: 30,
       startDelay: 1000
     });
