@@ -205,6 +205,7 @@ a {
   flex-wrap: wrap;
   gap: 9px;
   align-items: flex-start;
+  justify-content: center;
 }
 .more-pics img {
   width: calc(32% - 3px);
