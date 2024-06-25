@@ -129,7 +129,7 @@ a {
   .contact.contact.mobile-only {
     display: block;
     margin: 60px auto;
-    width: 55%;
+    width: 64%;
   }
   .contact.contact.desktop-only {
     display: none;
